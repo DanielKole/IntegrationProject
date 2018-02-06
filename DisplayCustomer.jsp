@@ -7,7 +7,7 @@ Last Name: <%= model.getLname() %><BR>
 Email: <%= model.getEmail() %><BR>
 Address: <%= model.getAddress() %><BR>
 Phone Number: <%= model.getPnum() %><BR>
-<Button>Confirm</Button>
+<A HREF="Confirm.jsp"><Button>Confirm</Button></A>
 
 <A HREF="PlaceOrderController.jsp"><Button>Back to Form</Button></A>
 <A HREF="Reset.jsp"><Button>Cancel</Button></A>
